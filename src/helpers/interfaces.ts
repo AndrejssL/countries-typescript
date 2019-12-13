@@ -1,8 +1,8 @@
-export interface Continent {
+interface Continent {
   name: string;
 }
 
-export interface Country {
+interface Country {
   name: string;
   code: string;
   native: string;
